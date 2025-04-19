@@ -52,6 +52,13 @@ void loop() {
 ```
 ---
 
+# OUTPUT
+```
+Connected!
+IP address: 
+192.168.1.102
+```
+
 ### 📡 Applications
 
 - IoT home automation
