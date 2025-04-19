@@ -102,3 +102,5 @@ You can embed:
 - CSS
 
 Want a web page that **controls GPIO (LEDs, relays)** or sends **sensor data live**? I can help you with that next!
+
+![Image](1.png)
