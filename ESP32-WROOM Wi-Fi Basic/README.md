@@ -22,8 +22,8 @@ Here’s a simple example to connect ESP32-WROOM to a Wi-Fi network:
 ```cpp
 #include <WiFi.h>
 
-const char* ssid = "your_SSID";
-const char* password = "your_PASSWORD";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
 
 void setup() {
   Serial.begin(115200);
