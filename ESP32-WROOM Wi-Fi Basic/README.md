@@ -27,6 +27,12 @@ const char* password = "your_PASSWORD";
 
 void setup() {
   Serial.begin(115200);
+
+  delay(2000);  // <-- Let the serial port settle
+
+  // Clear screen
+  for (int i = 0; i < 20; i++) Serial.println();
+
   WiFi.begin(ssid, password);
 
   Serial.print("Connecting to Wi-Fi");
@@ -44,35 +50,6 @@ void loop() {
   // Your code here
 }
 ```
-
-# OR
----
-```cpp
-#include <WiFi.h>
-
-const char* ssid = "Home";
-const char* password = "1234567890";
-
-void setup() {
-  Serial.begin(115200);
-  WiFi.begin(ssid, password);
-
-  Serial.print("Connecting to Wi-Fi");
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(500);
-    Serial.print(".");
-  }
-  
-}
-
-void loop() {
-  
-  Serial.println("\nConnected!\n");
-  Serial.println("IP address: ");
-  Serial.println(WiFi.localIP());
-}
-```
-
 ---
 
 ### 📡 Applications
