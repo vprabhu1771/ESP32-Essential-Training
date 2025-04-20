@@ -28,6 +28,7 @@ int gasValue = 0;
 String getHTMLPage() {
   String html = "<html><head><title>ESP32 Gas Monitor</title></head><body>";
   html += "<meta charset='UTF-8'>";
+  html += "<meta http-equiv='refresh' content='2'>";
   html += "<h2>MQ2 Gas Detection</h2>";
   html += "<p>Gas Sensor Value: <strong>" + String(gasValue) + "</strong></p>";
   html += "<p>Status: <strong>" + gasStatus + "</strong></p>";
