@@ -9,8 +9,8 @@ You got it! Let’s enhance your MQ2 gas detection sketch by adding a **web serv
 #include <WebServer.h>
 
 // WiFi credentials
-const char* ssid = "SRI_ABIRAMI_PAPER";
-const char* password = "12345678";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
 
 // Pin Definitions
 #define MQ2_PIN 34
