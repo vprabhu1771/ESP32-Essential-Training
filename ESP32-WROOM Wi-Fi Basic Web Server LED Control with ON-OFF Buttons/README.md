@@ -95,6 +95,6 @@ Status: OFF
 Want to make it **responsive mobile-friendly**, or build an **AJAX auto-refresh UI**? I can help upgrade it too!
 
 ![Image](1.png)
-![Image](2.jpg)
+![Image](2.jpeg)
 ![Image](3.png)
-![Image](4.jpg)
+![Image](4.jpeg)
