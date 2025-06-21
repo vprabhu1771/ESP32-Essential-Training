@@ -41,9 +41,16 @@ Yes — **you can absolutely program the ESP32 using C/C++ with the Arduino IDE*
 2. Search for **ESP32** by Espressif
 3. Click **Install**
 
+# OR
+
+1. Go to **Tools > Board > Boards Manager**
+2. Search for **Arduino ESP32 Boards** by Arduino
+3. Click **Install**
+
+
 #### 🔧 Step 4: Select Your ESP32 Board
 
-* **Tools > Board > ESP32 Arduino > \[Your Board]** (e.g., "ESP32 Dev Module")
+* **Tools > Board > ESP32 Arduino > \[Your Board]** (e.g., "ESP32 Dev Module", "LilyGo T-Display") 
 
 #### 🔧 Step 5: Install `ESP32-BLE-Gamepad` Library
 
